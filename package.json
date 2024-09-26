@@ -1,0 +1,25 @@
+{
+  "name": "regen1test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "frog vercel-build",
+    "dev": "frog dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "@neynar/nodejs-sdk": "^1.54.1",
+    "alchemy-sdk": "^3.4.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "frog": "^0.17.2",
+    "hono": "^4",
+    "node-fetch": "^2.7.0",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3",
+    "vercel": "^32.4.1"
+  }
+}
